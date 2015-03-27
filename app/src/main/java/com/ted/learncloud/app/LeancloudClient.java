@@ -37,6 +37,7 @@ public class LeancloudClient {
     }
 
     public static void main(String... args) {
+
         Gson gson = new GsonBuilder()
                 .setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
                 .create();

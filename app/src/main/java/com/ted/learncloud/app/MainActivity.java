@@ -51,6 +51,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     private Runnable mGetDataRunnable = new Runnable() {
         @Override
         public void run() {
+
             RestAdapter restAdapter = new RestAdapter.Builder()
                     .setConverter(new GsonConverter(gson))
                     .setEndpoint(LeancloudClient.API_URL + LeancloudClient.API_VERSION)
@@ -69,6 +70,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             for (LeancloudClient.Person person : persons) {
                 System.out.println(person.createdAt + " (" + person.updatedAt + ")");
             }
+
         }
     };
 
