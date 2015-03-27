@@ -17,7 +17,13 @@
     <Button android:layout_width="match_parent"
             android:layout_below="@id/button"
             android:id="@+id/get_button"
-            android:text="Add"
+            android:text="Get"
+            android:layout_height="wrap_content"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_below="@id/get_button"
+            android:id="@+id/get_button_rest"
+            android:text="getByRest"
             android:layout_height="wrap_content"/>
 
 </RelativeLayout>
