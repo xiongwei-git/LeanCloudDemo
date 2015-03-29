@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LeanCloudDemo.iml" filepath="$PROJECT_DIR$/LeanCloudDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearnCloud.iml" filepath="$PROJECT_DIR$/LearnCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

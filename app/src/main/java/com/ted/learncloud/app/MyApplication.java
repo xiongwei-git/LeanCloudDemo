@@ -10,6 +10,6 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        AVOSCloud.initialize(this,"fdsm1bi25mz0fdkmbtg3k2vnc8z105b3wkkmylvuy8pso1t5","6n82f5lljlmamtoxpu4b8jspufqg2lc1c9h7ztmpol176dl1");
+        AVOSCloud.initialize(this,Constants.SERVER_ID,Constants.SERVER_KEY);
     }
 }
